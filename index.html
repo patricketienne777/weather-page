@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header">Weather Dashboard</div>
+    <div class="main">
+      <div class="left">
+        <div class="searchcontainer">
+          <h2>Search For A City:</h2>
+          <input placeholder="Atlanta" type="text" class="searchInput" />
+          <button class="searchButton">Search</button>
+        </div>
+
+        <div class="list">
+          <ul class="history"></ul>
+        </div>
+      </div>
+      <div class="right">
+        <div class="first">
+          <h2 class="name"></h2>
+          <p class="temp"></p>
+          <p class="wind"></p>
+          <p class="humidity"></p>
+        </div>
+        <div class="second">
+          <div class="firstone">
+            <h2>5 Day Forecast:</h2>
+          </div>
+          <div class="cardcontainer"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
